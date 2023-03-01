@@ -413,3 +413,10 @@ ax.set_ylabel('Value')
                     """
     st.code(code, language='python')
     st.pyplot(fig)
+
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
